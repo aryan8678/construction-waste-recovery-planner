@@ -1,0 +1,32 @@
+{
+  "model_name": "RandomForestClassifier Pipeline",
+  "version": "1.0.0",
+  "training_timestamp": "2026-09-19T11:47:43.895636",
+  "training_samples": 2400,
+  "validation_samples": 600,
+  "accuracy": 0.9867,
+  "features": [
+    "material",
+    "condition",
+    "contamination",
+    "unit",
+    "quantity",
+    "broken_percentage",
+    "condition_score",
+    "contamination_score",
+    "has_cracks",
+    "structural_compromised",
+    "has_rust",
+    "has_rot",
+    "is_moist",
+    "has_hazardous_coating",
+    "is_separable"
+  ],
+  "classes": [
+    "DISPOSAL / SPECIALIZED HANDLING",
+    "RECOVER",
+    "RECYCLE",
+    "REPAIR",
+    "REUSE"
+  ]
+}
