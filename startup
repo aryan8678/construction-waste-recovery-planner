@@ -1,0 +1,17 @@
+& "C:\Users\sinha\AppData\Local\Programs\Python\Python313\python.exe" -m venv venv
+.\venv\Scripts\Activate.ps1
+
+
+git clone https://github.com/ArinS19/construction-waste-recovery-planner.git
+cd backend
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+
+
+cd "path\to\construction-waste-recovery-planner\frontend"
+npm install
+npm run dev
+
+http://localhost:5173
